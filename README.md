@@ -10,7 +10,7 @@
 4. Запусти команду:
 ```bash
 docker compose up -d
-
+```
 
 ## Таблиця Docker Compose сервісів
 
