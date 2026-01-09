@@ -18,9 +18,9 @@ services:
     restart: always
     environment:
       # === Required Settings
-      MAIN_URL: "https://postiz.repostix.com" # ваш домен
-      FRONTEND_URL: "https://postiz.repostix.com" # ваш домен
-      NEXT_PUBLIC_BACKEND_URL: "https://postiz.repostix.com/api" # ваш домен /api залишайте як є
+      MAIN_URL: "https://postiz.yourdomain.com" # ваш домен
+      FRONTEND_URL: "https://postiz.yourdomain.com" # ваш домен
+      NEXT_PUBLIC_BACKEND_URL: "https://postiz.yourdomain.com/api" # ваш домен /api залишайте як є
       JWT_SECRET: "random string that is unique to every install - just type random characters here!"
       DATABASE_URL: "postgresql://postiz-user:postiz-password@postiz-postgres:5432/postiz-db-local"
       REDIS_URL: "redis://postiz-redis:6379"
